@@ -2,7 +2,9 @@
 This is the open source code for the final project of my Computer Vision and Pattern Recognition course at UESTC(2023 SUMMER). 
 
 You can git clone it into your local environment, execute it, and feel the charm of SAM by interacting with it. Enjoy yourself, and have fun！
-# one thing notable:
+
+(by the way... don't forget to star this project if you find it useful, that do means a lot to me!! salute)
+# One thing notable:
 You may need a GPU to run the code,casue it's a time-consuming work for CPU...
 
 But don't worry,I will also give a colab url downblow,which is much easier to use.
