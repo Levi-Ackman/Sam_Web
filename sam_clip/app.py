@@ -12,7 +12,7 @@ import PIL
 import torch
 from sam import SamAutomaticMaskGenerator, sam_model_registry
 
-checkpoint = "/home/Paradise/Segment_Anything_Webui/checkpoint/sam_vit_h_4b8939.pth"
+checkpoint = "./checkpoint/sam_vit_h_4b8939.pth"
 MODEL_TYPE = "default"
 MAX_WIDTH = MAX_HEIGHT = 1024
 TOP_K_OBJ = 100
