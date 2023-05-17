@@ -1,7 +1,7 @@
 # SAM_Web
 This is the open source code for the final project of my Computer Vision and Pattern Recognition course at UESTC(2023 SUMMER). You can git clone it into your local environment, execute it, and feel the charm of SAM by interacting with it. Enjoy yourself, and have fun！
 
-# some learning materials and resource are down below:
+# Some learning materials and resource are down below:
 
 [[`Paper`](https://ai.facebook.com/research/publications/segment-anything/)] [[`Project`](https://segment-anything.com/)] [[`Demo`](https://segment-anything.com/demo)] [[`Dataset`](https://segment-anything.com/dataset/index.html)] [[`Blog`](https://ai.facebook.com/blog/segment-anything-foundation-model-image-segmentation/)] [[`BibTeX`](#citing-segment-anything)]
 
@@ -39,13 +39,13 @@ git clone https://github.com/Levi-Ackman/SAM_Web.git
 ```
 
 ### 2) Then,create the environment needed by : 
-In conda:
+In conda( Take longer time):
 
 ```
 conda env create -f environment.yml
 ```
 
-Or In pip (advised):
+Or In pip (Advised):
 
 ```
 pip install -r requirements.txt
