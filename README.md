@@ -5,7 +5,7 @@ This is the open source code for the final project of my Computer Vision and Pat
 
 [[`Paper`](https://ai.facebook.com/research/publications/segment-anything/)] [[`Project`](https://segment-anything.com/)] [[`Demo`](https://segment-anything.com/demo)] [[`Dataset`](https://segment-anything.com/dataset/index.html)] [[`Blog`](https://ai.facebook.com/blog/segment-anything-foundation-model-image-segmentation/)] [[`BibTeX`](#citing-segment-anything)]
 
-# A simple google colab example was available at [[`clip`](https://colab.research.google.com/github/Curt-Park/segment-anything-with-clip/blob/main/colab.ipynb/)] and [[`Interact`](https://colab.research.google.com/github/Levi-Ackman/Sam_Web/blob/Happiness/sam_interactive/Colab.ipynb/)]
+## A simple google colab example was available at [[`clip`](https://colab.research.google.com/github/Levi-Ackman/Sam_Web/blob/Happiness/sam_clip/colab.ipynb/)] and [[`Interact`](https://colab.research.google.com/github/Levi-Ackman/Sam_Web/blob/Happiness/sam_interactive/colab.ipynb/)]
 
 <p float="left">
   <img src="assets/Irving.png.png?raw=true" width="55%" />
