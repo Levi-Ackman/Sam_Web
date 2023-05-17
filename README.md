@@ -8,26 +8,19 @@ This is the open source code for the final project of my Computer Vision and Pat
 ## A simple google colab example was available at [[`clip`](https://colab.research.google.com/github/Levi-Ackman/Sam_Web/blob/Happiness/sam_clip/colab.ipynb/)] and [[`Interact`](https://colab.research.google.com/github/Levi-Ackman/Sam_Web/blob/Happiness/sam_interactive/colab.ipynb/)]
 
 <p float="left">
-  <img src="assets/Irving.png.png?raw=true" width="100%" />
+  <img src="assets/Irving.jpg?raw=true" width="100%" />
   </p>
 <p float="left">
   <img src="assets/Irving_mask.jpg?raw=true" width="100%" /> 
 </p>
 <p float="left">
-  <img src="assets/kobe.png?raw=true" width="100%" />
+  <img src="assets/kobe.jpg?raw=true" width="100%" />
 </p>
 <p float="left">
   <img src="assets/kobe_mask.jpg?raw=true" width="100%" /> 
 </p>
 <p float="left">
-  <img src="assets/sea.png?raw=true" width="100%" />
-</p>
-<p float="left">
-  <img src="assets/sea_mask.jpg?raw=true" width="100%" /> 
-</p>
-
-<p float="left">
-  <img src="assets/sea.png?raw=true" width="100%" />
+  <img src="assets/sea.jpg?raw=true" width="100%" />
 </p>
 <p float="left">
   <img src="assets/sea_mask.jpg?raw=true" width="100%" /> 
