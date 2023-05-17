@@ -25,7 +25,7 @@ def read_content(file_path: str) -> str:
 
     return content
 
-sam_checkpoint = "./checkpoint/sam_vit_h_4b8939.pth" # "sam_vit_l_0b3195.pth" or "sam_vit_h_4b8939.pth"
+sam_checkpoint = "/content/Sam_Web/checkpoint/sam_vit_h_4b8939.pth" # "sam_vit_l_0b3195.pth" or "sam_vit_h_4b8939.pth"
 model_type = "vit_h" # "vit_l" or "vit_l"
 device = "cuda" # "cuda" if torch.cuda.is_available() else "cpu"
 
