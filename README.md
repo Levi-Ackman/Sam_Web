@@ -6,6 +6,7 @@ This is the open source code for the final project of my Computer Vision and Pat
 [[`Paper`](https://ai.facebook.com/research/publications/segment-anything/)] [[`Project`](https://segment-anything.com/)] [[`Demo`](https://segment-anything.com/demo)] [[`Dataset`](https://segment-anything.com/dataset/index.html)] [[`Blog`](https://ai.facebook.com/blog/segment-anything-foundation-model-image-segmentation/)] [[`BibTeX`](#citing-segment-anything)]
 
 ## A simple google colab example was available at [[`Here`](https://colab.research.google.com/github/Levi-Ackman/Sam_Web/blob/Happiness/sam_interactive/colab.ipynb)]
+(you may need to manually pip some package...)
 
 <p float="left">
   <img src="assets/Irving.jpg?raw=true" width="100%" />
@@ -44,7 +45,7 @@ In conda:
 conda env create -f environment.yml
 ```
 
-Or In pip:
+Or In pip (advised):
 
 ```
 pip install -r requirements.txt
@@ -122,7 +123,7 @@ your_image = cv2.cvtColor(your_image, cv2.COLOR_BGR2RGB)
 then:
 
 ```
-from segment_anything import SamPredictor, sam_model_registry
+from sam_clip.sam import SamPredictor, sam_model_registry
 sam = sam_model_registry["<model_type>"](checkpoint="<path/to/checkpoint>")
 predictor = SamPredictor(sam)
 predictor.set_image(<your_image>)
@@ -132,7 +133,7 @@ masks, _, _ = predictor.predict(<input_prompts>)
 or generate masks for an entire image:
 
 ```
-from segment_anything import SamAutomaticMaskGenerator, sam_model_registry
+from sam_clip.sam import SamAutomaticMaskGenerator, sam_model_registry
 sam = sam_model_registry["<model_type>"](checkpoint="<path/to/checkpoint>")
 mask_generator = SamAutomaticMaskGenerator(sam)
 masks = mask_generator.generate(<your_image>)
